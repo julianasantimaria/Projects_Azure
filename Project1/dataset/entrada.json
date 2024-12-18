@@ -1,0 +1,23 @@
+{
+	"name": "entrada",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "datafactoryproject",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "entrada"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Ecommerce_Sales_Prediction_Dataset.csv",
+				"fileSystem": "datafactoryjuliana"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
