@@ -1,0 +1,7 @@
+{
+	"name": "dp_silver_extract",
+	"properties": {
+		"description": "From the database to the data lake.",
+		"annotations": []
+	}
+}
