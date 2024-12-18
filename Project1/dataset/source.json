@@ -1,12 +1,12 @@
 {
-	"name": "entrada",
+	"name": "source",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_storage_raw_ecommerceSales",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "entrada"
+			"name": "source"
 		},
 		"annotations": [],
 		"type": "Excel",
