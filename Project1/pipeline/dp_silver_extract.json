@@ -4,7 +4,7 @@
 		"description": "From the database to the data lake.",
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy data2",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -17,18 +17,20 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "ExcelSource",
+						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
 							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
 						}
 					},
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings",
-							"copyBehavior": "MergeFiles"
+							"type": "AzureBlobFSWriteSettings"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
@@ -48,7 +50,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "source",
+						"referenceName": "ls_source_bronze_data",
 						"type": "DatasetReference"
 					}
 				],
@@ -58,8 +60,30 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "bronze",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"waitOnCompletion": true
+				}
 			}
 		],
+		"parameters": {
+			"variable": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"variable": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
