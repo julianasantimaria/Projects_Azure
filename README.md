@@ -29,7 +29,7 @@ Project5 -
 
 ## Azure - Data Architecture and Processing
 
- <img width="2500px" align="right"  src="https://github.com/julianasantimaria/ProjectsTerraform/blob/HTML/IaC.jpeg">
+ <img width="2500px" align="right"  src="https://github.com/julianasantimaria/Projects_Azure/blob/HTML/imageAzure.png">
 
  <br/>
  <br/>
@@ -42,7 +42,7 @@ Project5 -
 
 ## Requisites
 
-Make sure you have Docker and Terraform tools and accounts in the Azure.
+Make sure you have account in the Azure.
 
 ```bash
 - Azure
