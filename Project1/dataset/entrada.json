@@ -2,7 +2,7 @@
 	"name": "entrada",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "datafactoryproject",
+			"referenceName": "ls_storage_raw_ecommerceSales",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
