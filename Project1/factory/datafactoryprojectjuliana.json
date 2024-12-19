@@ -1,9 +1,0 @@
-{
-	"name": "datafactoryprojectjuliana",
-	"location": "westus2",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "4eca61f1-e7ff-447c-8abc-17c56ff5a701",
-		"tenantId": "bcad3cdc-6d55-4ca2-8e04-720d55772a83"
-	}
-}
