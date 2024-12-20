@@ -1,0 +1,9 @@
+{
+	"name": "ecommerce-sales",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d958c2e1-166e-4c44-a358-98e53a96abab",
+		"tenantId": "bcad3cdc-6d55-4ca2-8e04-720d55772a83"
+	}
+}
