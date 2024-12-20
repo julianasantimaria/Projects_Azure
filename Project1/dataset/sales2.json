@@ -1,0 +1,21 @@
+{
+	"name": "sales2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_storage_sales",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "pipeline"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
