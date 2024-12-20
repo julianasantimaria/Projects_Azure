@@ -1,9 +1,0 @@
-{
-	"name": "eccomerce-sales",
-	"location": "westus2",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "b54d4eb8-249a-434b-9f49-35669abb667b",
-		"tenantId": "bcad3cdc-6d55-4ca2-8e04-720d55772a83"
-	}
-}
