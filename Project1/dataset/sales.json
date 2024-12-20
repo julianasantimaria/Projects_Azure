@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "pipeline"
+			"name": "source"
 		},
 		"annotations": [],
 		"type": "AzureTable",
