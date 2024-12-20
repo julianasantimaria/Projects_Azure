@@ -1,0 +1,15 @@
+{
+	"name": "sales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_storage_ecommerce_sales",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "pipeline"
+		},
+		"annotations": [],
+		"type": "AzureTable",
+		"schema": []
+	}
+}
